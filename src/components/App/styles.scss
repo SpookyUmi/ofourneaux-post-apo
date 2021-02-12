@@ -1,0 +1,120 @@
+@use 'src/styles/vars';
+
+.app {
+  margin: 0 auto;
+  font-family: vars.$font-text;
+  line-height: 1.6rem;
+  color: vars.$color-primary;
+  position: relative;
+}
+
+h1 {
+  line-height: 1.5;
+  font-family: vars.$font-title;
+  font-size: 2.5rem;
+}
+
+h2 {
+  line-height: 3.5rem;
+  font-family: vars.$font-title;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: vars.$font-title;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+h1, h2, button {
+  text-align: center;
+}
+
+p, label {
+  font-size: 1.1rem;
+}
+
+input, select, input[type=number] {
+  border-radius: 1.3rem;
+  border: 2px solid vars.$color-primary;
+  background-color: vars.$color-sand;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+select {
+  background-image: url('../../assets/images/arrow-down.svg');
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  cursor: pointer;
+}
+
+select:focus {
+  box-shadow: 0 0 1px 2px #00382a8c;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #00382a91;
+}
+
+.button__style, button, input[type=button] {
+  background-color: vars.$color-primary;
+  border: 2px solid vars.$color-primary;
+  padding: 0.75rem 1.25rem;
+  color: vars.$color-sand;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.link__style {
+  transition: 0.2s;
+}
+
+.link__style:hover {
+  opacity: 0.8;
+}
+
+button:hover, .button__style:hover, input[type=button]:hover {
+  border: 2px solid vars.$color-primary;
+  background-color: vars.$color-sand;
+  color: vars.$color-primary;
+}
+
+.icon__style {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.7rem;
+  border-radius: 10rem;
+  transition: background-color 0.3s ease;
+}
+
+.icon__style:hover {
+  background-color: #ffffff80;
+}
+
+label {
+  color: #000;
+}
+
+.error-message {
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  margin: 0.5rem 0rem;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

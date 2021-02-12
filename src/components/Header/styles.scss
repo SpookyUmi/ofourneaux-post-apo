@@ -1,0 +1,101 @@
+@use 'src/styles/vars';
+
+.header {
+  background-color: vars.$color-secondary;
+  position: relative;
+
+  &__container__title {
+    padding-top: 1rem;
+  }
+
+  &__container__menu__icon {
+    width: 2.3rem;
+    position: absolute;
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  &__container__menu__icon:hover {
+    opacity: 0.8;
+  }
+
+  &__container__elem--signin, &__container__elem--signout {
+    font-size: 0.9rem;
+  }
+}
+
+.desktop, .header__container__searchform {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .desktop, .header__container__searchform {
+    display: block;
+  }
+
+  .header__container {
+    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      padding-top: 0;
+    }
+
+    &__menu__icon {
+      display: none;
+    }
+
+    &__searchform {
+      display: flex;
+      align-items: center;
+
+      &__icon {
+        padding: 0.5rem 0 0.5rem 0.5rem;
+        background-color: vars.$color-sand;
+        border-top: 2px solid vars.$color-primary;
+        border-bottom: 2px solid vars.$color-primary;
+        border-left: 2px solid vars.$color-primary;
+        border-top-left-radius: 1.3rem;
+        border-bottom-left-radius: 1.3rem;
+      }
+    }
+
+    &__elem {
+      padding: 0.6rem;
+      font-weight: 700;
+
+      &--signin, &--signout {
+        text-transform: uppercase;
+        padding-top: 1rem;
+        margin-left: 0.3rem;
+      }
+
+      &--input {
+        border-radius: 0;
+        border-top-right-radius: 1.3rem;
+        border-bottom-right-radius: 1.3rem;
+        border: 2px solid vars.$color-primary;
+        border-left: none;
+        background-color: vars.$color-sand;
+        padding-left: 0.7rem;
+        text-align: left;
+        font-weight: 700;
+      }
+
+    }
+  }
+
+}

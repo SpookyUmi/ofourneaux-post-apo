@@ -1,0 +1,236 @@
+@use 'src/styles/vars';
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.1rem auto;
+  margin-bottom: 10rem;
+
+  &__title {
+    font-size: 2rem;
+    font-family: vars.$font-title;
+    margin-bottom: 1.5rem;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    // to align the elements horizontally when they are in absolute position, we use the transform property, associated with translate which allows to shift the element by half its width
+    // plus d'infos : https://www.alsacreations.com/article/lire/539-Centrer#:~:text=Pour%20centrer%20horizontalement%20un%20%C3%A9l%C3%A9ment,%22auto%22%20aux%20marges%20lat%C3%A9rales.&text=De%20cette%20mani%C3%A8re%2C%20il%20%C3%A9quilibrera%20automatiquement%20les%20marges%20lat%C3%A9rales.
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 9.375rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 1.5rem 0rem 1.5rem;
+    color: vars.$color-primary;
+    background-color: vars.$color-secondary;
+    border-radius: 1.5rem;
+    padding: 5.6rem 1.5rem 1.5rem 1.5rem;
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 45%;
+      margin-bottom: 1.5rem;
+
+      &__link {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 10rem;
+        transition: background-color 0.3s ease;
+      }
+
+      &__link:hover {
+        background-color: #ffffff80;
+      }
+
+      &__icon {
+        height: 30px;
+        width: 30px;
+      }
+
+      &__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 1px;
+      }
+
+      &__section p {
+        font-size: 0.9rem;
+      }
+    }
+
+    &__infos {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      &__inputs {
+        margin-right: 0rem;
+        margin-bottom: 1.5rem;
+      }
+
+      &__input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.6rem 0 0.3rem 0;
+      }
+
+      &__input:first-child {
+        margin-top: 0;
+      }
+
+      &__label {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #000000;
+        margin: 0 1.1rem 0.3rem 1.1rem;
+      }
+
+      &__field {
+        border-radius: 1.3rem;
+        border: 2px solid vars.$color-primary;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background-color: vars.$color-sand;
+        overflow: hidden;
+        width: 250px;
+      }
+
+      &__field::placeholder {
+        color: #00382a91;
+      }
+    }
+
+    &__constraints {
+      margin-left: 0rem;
+
+      &__input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0.3rem 0.93rem;
+      }
+
+      &__title {
+        color: #000000;
+        font-family: vars.$font-title;
+        margin-bottom: 0.93rem;
+      }
+
+      &__checkbox {
+        margin-right: 0.6rem;
+      }
+
+      &__label {
+        font-size: 1rem;
+        font-family: vars.$font-text;
+      }
+    }
+
+    &__message {
+      margin-bottom: 1rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1.25rem;
+    }
+
+    &__button:first-child {
+      margin-top: 0;
+    }
+
+    &__button:last-child {
+      margin-bottom: 0;
+    }
+
+    &__button:hover {
+      border: 2px solid vars.$color-primary;
+      background-color: vars.$color-sand;
+      color: vars.$color-primary;
+    }
+
+    &__text {
+      text-align: center;
+      font-size: 0.9rem;
+
+      &--underline {
+        margin-left: 0.2rem;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 963px) {
+  .profile {
+    &__content {
+      &__block {
+        width: 50%;
+      }
+
+      &__infos {
+        flex-direction: row;
+
+        &__inputs {
+          margin-bottom: 0rem;
+          margin-right: 0.9rem;
+        }
+
+        &__label {
+          font-size: 0.9rem;
+        }
+
+        &__field {
+          font-size: 0.9rem;
+        }
+      }
+
+      &__constraints {
+        margin-left: 0.9rem;
+
+        &__label {
+          font-size: 0.9rem;
+        }
+      }
+
+      &__buttons {
+        flex-direction: row;
+      }
+
+      &__button {
+        margin: 0rem 0.6rem;
+      }
+
+      &__text {
+        font-size: 0.85rem;
+      }
+    }
+  }
+}

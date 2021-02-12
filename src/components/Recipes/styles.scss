@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.recipes__container__title {
+  /* background-image: url('../../assets/images/cake-background.jpg');
+  background-color: vars.$color-sand;
+  background-size: cover;
+  background-position: center; */
+  margin: 2rem auto;
+  max-width: 460px;
+  border-radius: 5rem;
+  position: relative;
+}
+
+.recipes__container__title h2 {
+  padding: 2rem;
+  background-color: #bee2858f;
+  border-radius: 5rem;
+}
+
+.recipes__card {
+    display: flex;
+    flex-wrap: wrap;
+    //min-height: 100vh;
+    margin-bottom: 5rem;
+  }

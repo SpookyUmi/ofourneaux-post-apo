@@ -1,0 +1,44 @@
+@use 'src/styles/vars';
+
+.recipe {
+  &__ingredients {
+    margin-bottom: 1.25rem;
+
+    &__title {
+      padding: 0 1.5rem;
+      margin-bottom: 0.9rem;
+      text-align: left;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__ingredient {
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    max-width: 80px;
+
+    &__img {
+      height: 3rem;
+      width: 3rem;
+      background-color: #00000027;
+      margin-bottom: 0.625rem;
+      border-radius: 0.6rem;
+    }
+
+    &__title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      line-height: 1rem;
+    }
+
+    &__quantity {
+      font-size: 0.8rem;
+    }
+  }
+}

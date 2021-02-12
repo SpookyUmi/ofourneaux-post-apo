@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<h1 align="center">
+O'Fourneaux
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quand on a un emploi du temps chargé, qu'on commence une formation intensive de 5 mois, qu'on est parent, ou que l'on fait face à toute autre contrainte du quotidien, il est plus difficile de trouver le temps de réfléchir à ses repas. C'est pourquoi nous vous présentons notre application génératrice de recettes, qui vous permettra d'être plus serein et plus organisé jour après jour !
 
-## Available Scripts
+## Objectif
 
-In the project directory, you can run:
+Nous souhaitons proposer une solution complète pour organiser ses repas, ses courses et ses recettes de cuisine : un générateur de recettes avec liste de courses. Notre but est de présenter une première version simple et fonctionnelle de cette application, en implémentant ses fonctionnalités les plus intéressantes.
 
-### `yarn start`
+## Public visé
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+L’application se veut très inclusive et personnalisable avec un large choix d’exigences alimentaires propres à chaque utilisateur.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Accessibilité
 
-### `yarn test`
+L’application sera développée en responsive design, c’est-à-dire que l’affichage s'adapte en fonction de la taille d’écran et du terminal utilisé. Nous nous concentrerons sur deux types d’affichages : affichage mobile (pour les téléphones portables en mode portrait), et desktop (pour les ordinateurs, format paysage). 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Fonctionnement
 
-### `yarn build`
+### Arborescence
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![arborescence](public/img/arborescence.png)

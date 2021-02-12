@@ -1,0 +1,68 @@
+@use 'src/styles/vars';
+
+.shoppinglist__container {
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.shoppinglist__recipes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.shopping__list {
+  background-color: vars.$color-secondary;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 2rem;
+
+  &__header {
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__header img {
+    width: 3rem;
+    margin-right: 0.5rem;
+  }
+
+  &__body {
+    padding: 0.5rem;
+
+    &__form {
+      display: flex;
+      justify-content: space-between;
+      //flex-wrap: wrap;
+      align-items: center;
+      padding: 0.5rem;
+
+      &__input {
+        margin-right: 0.5rem;
+      }
+    }
+
+  }
+}
+
+.quantity__setter__block {
+  display: flex;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  .shopping__list {
+    max-width: 90%;
+  }
+
+}

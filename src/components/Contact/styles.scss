@@ -1,0 +1,55 @@
+@use 'src/styles/vars';
+
+.contact {
+  height: 90vh;
+  margin-top: 3rem;
+
+  &__title {
+    margin: 1.5rem;
+  }
+
+  &__form {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: vars.$color-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    border-radius: 4rem;
+  }
+
+  &__form input, &__form textarea {
+    background-color: vars.$color-sand;
+    border: 2px solid vars.$color-primary;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    width: 300px;
+    text-align: left;
+  }
+
+  &__form label, &__form button {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+
+}
+
+.message__sent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    width: 10rem;
+    margin: 2rem 0;
+  }
+}
+
+.message__sent h3 {
+  margin: 0.5rem;
+  text-align: center;
+}

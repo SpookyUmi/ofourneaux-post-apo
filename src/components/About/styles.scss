@@ -1,0 +1,83 @@
+@use 'src/styles/vars';
+
+.container {
+  max-width: 1440px;
+  margin: 2rem auto;
+  text-align: center;
+  min-height: 100vh;
+  margin-bottom: 5rem;
+
+  &__section {
+    padding: 0 1.2rem 1.2rem 1.2rem;
+
+    &__title {
+      margin: 0.8rem;
+    }
+  }
+}
+
+.section__card {
+  margin: 1rem auto;
+  background-color: vars.$color-secondary;
+  padding: 1rem;
+  border-radius: 4rem;
+  max-width: 265px;
+  height: 360px;
+
+  &__image {
+    width: 9rem;
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__name, &__role, &__description {
+    margin: 0.3rem;
+  }
+
+  &__role {
+    margin-top: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .container__section {
+
+    /* &__text {
+      text-align: left;
+    } */
+
+    &--flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .section__card {
+    margin: 0.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .container {
+  max-width: 1440px;
+
+  // &__section {
+
+  //   &--flex {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     justify-content: center;
+  //     align-items: center;
+  //   }
+  // }
+}
+
+}

@@ -1,0 +1,60 @@
+@use 'src/styles/vars';
+
+.card__recipe {
+  background-color: vars.$color-secondary;
+  width: 320px;
+  height: 400px;
+  margin: 1.5rem auto;
+  border-radius: 2rem;
+  overflow: hidden;
+
+  &__container {
+    height: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  &__time__icon {
+    width: 1.7rem;
+    margin-right: 0.5rem;
+  }
+
+  &__infos {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__info, &__buttons {
+    display: flex;
+  }
+
+  &__title {
+    padding: 1rem;
+  }
+
+  &__buttons {
+    margin-top: 1.5rem;
+    justify-content: center;
+  }
+
+  &__buttons button {
+    margin: 0.5rem;
+  }
+
+  /* &__select__button {
+    border-right: 1px solid vars.$color-secondary;
+  } */
+
+  &__info {
+    padding: 0.3rem 1rem;
+    align-items: center;
+  }
+}
