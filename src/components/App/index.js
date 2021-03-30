@@ -5,23 +5,23 @@ import PropTypes from 'prop-types';
 import { Route } from 'react-router-dom';
 
 // Components
-import Header from 'src/components/Header';
-import Generator from 'src/components/Generator';
-import About from 'src/components/About';
-import Contact from 'src/components/Contact';
-import ShoppingList from 'src/components/ShoppingList';
-import HomePresentation from 'src/components/App/HomePresentation';
-import Inscription from 'src/components/Inscription';
-import Connection from 'src/components/Connection';
-import Profile from 'src/components/Profile';
-import Recipe from 'src/components/Recipe';
-import Recipes from 'src/components/Recipes';
-import Favorites from 'src/components/Favorites';
-import NavBar from 'src/components/NavBar';
-import Footer from 'src/components/Footer';
-import Admin from 'src/components/Admin';
-import SearchFail from 'src/components/Errors/SearchFail';
-import CheckError from 'src/components/Errors/CheckError';
+import Header from '../Header';
+import Generator from '../Generator';
+import About from '../About';
+import Contact from '../Contact';
+import ShoppingList from '../ShoppingList';
+import HomePresentation from '../App/HomePresentation';
+import Inscription from '../Inscription';
+import Connection from '../Connection';
+import Profile from '../Profile';
+import Recipe from '../Recipe';
+import Recipes from '../Recipes';
+import Favorites from '../Favorites';
+import NavBar from '../NavBar';
+import Footer from '../Footer';
+import Admin from '../Admin';
+import SearchFail from '../Errors/SearchFail';
+import CheckError from '../Errors/CheckError';
 
 // SCSS
 import './styles.scss';

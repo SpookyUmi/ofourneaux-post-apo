@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import URL from 'src/middlewares/urlEnv';
+import URL from '../../../../middlewares/urlEnv';
 import axios from 'axios';
-import 'src/components/Admin/admin.scss';
+import '../../admin.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencilAlt, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import ModalConfirmDelete from './Modal/ModalConfirmDelete';

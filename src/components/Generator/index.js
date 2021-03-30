@@ -5,8 +5,8 @@ import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 // == Import
-import arrow from 'src/assets/icons/up-arrow.svg';
-import pancakes from 'src/assets/images/pancakes.png';
+import arrow from '../../assets/icons/up-arrow.svg';
+import pancakes from '../../assets/images/pancakes.png';
 import './styles.scss';
 
 // == Composant

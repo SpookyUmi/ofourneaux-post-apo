@@ -4,14 +4,14 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 // icons
-import timeIco from 'src/assets/icons/time.svg';
-import bakingIco from 'src/assets/icons/baking.svg';
-import ovenIco from 'src/assets/icons/oven.svg';
-import difficultyIco from 'src/assets/icons/difficulty.svg';
-import nutriScoreIco from 'src/assets/icons/nutriscore.svg';
+import timeIco from '../../../assets/icons/time.svg';
+import bakingIco from '../../../assets/icons/baking.svg';
+import ovenIco from '../../../assets/icons/oven.svg';
+import difficultyIco from '../../../assets/icons/difficulty.svg';
+import nutriScoreIco from '../../../assets/icons/nutriscore.svg';
 
 // import utils
-import difficultyNameById from 'src/utils/difficultyNameById';
+import difficultyNameById from '../../../utils/difficultyNameById';
 
 // SCSS
 import './styles.scss';
@@ -44,7 +44,7 @@ const Informations = ({
   };
 
   checkIfRecipeIsInShoppingList();
-  
+
   return (
     <div className="recipe__infos">
       <div className="recipe__infos__header">

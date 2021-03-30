@@ -5,11 +5,11 @@ import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 // import middlewares
-import uploadImage from 'src/middlewares/firebase';
+import uploadImage from '../../middlewares/firebase';
 
 // icons
-import heartFull from 'src/assets/icons/heart-full.svg';
-import list from 'src/assets/icons/list.svg';
+import heartFull from '../../assets/icons/heart-full.svg';
+import list from '../../assets/icons/list.svg';
 
 // components import
 import Modal from './Modal';

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import URL from 'src/middlewares/urlEnv';
+import URL from './urlEnv';
 
 const connectionPersistence = (store) => (next) => (action) => {
   async function getTagsByUser(userId, userToken) {

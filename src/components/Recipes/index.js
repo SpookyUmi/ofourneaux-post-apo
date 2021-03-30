@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import CardRecipe from 'src/components/CardRecipe';
+import CardRecipe from '../CardRecipe';
 import './styles.scss';
 
 const Recipes = ({ recipes, setIsOpen }) => {

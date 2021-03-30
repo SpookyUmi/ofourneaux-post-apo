@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import trash from 'src/assets/icons/delete.svg';
-import modifier from 'src/assets/icons/modifier.svg';
-import heartLine from 'src/assets/icons/heart-line.svg';
-import heartFull from 'src/assets/icons/heart-full.svg';
+import trash from '../../../assets/icons/delete.svg';
+import modifier from '../../../assets/icons/modifier.svg';
+import heartLine from '../../../assets/icons/heart-line.svg';
+import heartFull from '../../../assets/icons/heart-full.svg';
 
 import './styles.scss';
 

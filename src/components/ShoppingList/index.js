@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 // == Import
 import './styles.scss';
 
-import CardRecipe from 'src/components/CardRecipe';
+import CardRecipe from '../CardRecipe';
 import GeneratedList from './GeneratedList';
 
 // == Composant

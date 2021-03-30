@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 
 // == Import
 import './styles.scss';
-import plane from 'src/assets/images/paper-plane.svg';
+import plane from '../../assets/images/paper-plane.svg';
 import { NavLink } from 'react-router-dom';
 
 // == Composant

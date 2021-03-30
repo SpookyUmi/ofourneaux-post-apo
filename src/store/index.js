@@ -2,20 +2,20 @@ import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 // rootReducer = result of combineReducers
-import rootReducer from 'src/reducers';
+import rootReducer from '../reducers';
 
 // middlewares
-import authMiddleware from 'src/middlewares/auth';
-import adminActionsOnTagMiddleware from 'src/middlewares/adminActionsOnTag';
-import userMiddleware from 'src/middlewares/user';
-import profileMiddleware from 'src/middlewares/profile';
-import signUpMiddleware from 'src/middlewares/signUp';
-import searchMiddleware from 'src/middlewares/search';
-import recipeMiddleware from 'src/middlewares/recipe';
-import shoppingListMiddleware from 'src/middlewares/shoppingList';
-import appMiddleware from 'src/middlewares/app';
-import connectionPersistence from 'src/middlewares/connectionPersistence';
-import favoritesMiddleware from 'src/middlewares/favorites';
+import authMiddleware from '../middlewares/auth';
+import adminActionsOnTagMiddleware from '../middlewares/adminActionsOnTag';
+import userMiddleware from '../middlewares/user';
+import profileMiddleware from '../middlewares/profile';
+import signUpMiddleware from '../middlewares/signUp';
+import searchMiddleware from '../middlewares/search';
+import recipeMiddleware from '../middlewares/recipe';
+import shoppingListMiddleware from '../middlewares/shoppingList';
+import appMiddleware from '../middlewares/app';
+import connectionPersistence from '../middlewares/connectionPersistence';
+import favoritesMiddleware from '../middlewares/favorites';
 
 const store = createStore(
   rootReducer,

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import FormData from 'form-data';
-import URL from 'src/middlewares/urlEnv';
+import URL from './urlEnv';
 
 const profile = (store) => (next) => (action) => {
   const state = store.getState();

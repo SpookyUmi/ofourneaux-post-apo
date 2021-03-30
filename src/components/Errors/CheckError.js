@@ -5,7 +5,7 @@ import axios from 'axios';
 import './styles.scss';
 
 const CheckError = () => {
-  function checkErrorFunction(props) {
+  function CheckErrorFunction(props) {
     useEffect(() => {
       axios.interceptors.response.use((response) => response);
     }, (error) => {
@@ -26,7 +26,7 @@ const CheckError = () => {
       </div>
     );
   }
-  return checkErrorFunction;
+  return CheckErrorFunction;
 };
 
 export default CheckError;

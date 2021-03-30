@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-import bin from 'src/assets/icons/delete.svg';
+import bin from '../../../../assets/icons/delete.svg';
 import './tagform.scss';
 
 const TagForm = ({

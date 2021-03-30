@@ -69,8 +69,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  line-height: inherit;
+  /* font-size: inherit;
+  line-height: inherit; */
   font-weight: inherit;
   margin: 0;
 }
@@ -230,13 +230,13 @@ textarea {
   -webkit-appearance: none;
   appearance: none;
   vertical-align: middle;
-  color: inherit;
+  /* color: inherit; */
   font: inherit;
-  background: transparent;
-  padding: 0;
-  margin: 0;
-  outline: 0;
-  border-radius: 0;
+  /* background: transparent;
+  padding: 0; */
+  /* margin: 0;
+  outline: 0; */
+  /* border-radius: 0; */
   text-align: inherit;
 }
 

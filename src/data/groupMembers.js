@@ -1,8 +1,8 @@
-import charlene from 'src/assets/images/charlene.png';
-import julien from 'src/assets/images/julien.png';
-import jenny from 'src/assets/images/jenny.png';
-import chloe from 'src/assets/images/chloe.png';
-import stephane from 'src/assets/images/stephane.png';
+import charlene from '../assets/images/charlene.png';
+import julien from '../assets/images/julien.png';
+import jenny from '../assets/images/jenny.png';
+import chloe from '../assets/images/chloe.png';
+import stephane from '../assets/images/stephane.png';
 
 export default [
   {

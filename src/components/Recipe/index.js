@@ -4,12 +4,12 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 // icons
-import Informations from 'src/components/Recipe/Informations';
-import Instructions from 'src/components/Recipe/Instructions';
-import Ingredients from 'src/components/Recipe/Ingredients';
-import Image from 'src/components/Recipe/Image';
-import ImageMobile from 'src/components/Recipe/ImageMobile';
-import InformationsMobile from 'src/components/Recipe/InformationsMobile';
+import Informations from './Informations';
+import Instructions from './Instructions';
+import Ingredients from './Ingredients';
+import Image from './Image';
+import ImageMobile from './ImageMobile';
+import InformationsMobile from './InformationsMobile';
 
 // SCSS
 import './styles.scss';

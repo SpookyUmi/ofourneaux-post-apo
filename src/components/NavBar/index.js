@@ -7,16 +7,16 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 
 // icons
-import home from 'src/assets/icons/home.svg';
-import arrow from 'src/assets/icons/up-arrow.svg';
-import profile from 'src/assets/icons/profile.svg';
-import list from 'src/assets/icons/list.svg';
-import favorites from 'src/assets/icons/heart-full.svg';
-import recipe from 'src/assets/icons/bookmark.svg';
-import tag from 'src/assets/icons/tag.svg';
-import users from 'src/assets/icons/users.svg';
-import contact from 'src/assets/icons/contact.svg';
-import about from 'src/assets/icons/about.svg';
+import home from '../../assets/icons/home.svg';
+import arrow from '../../assets/icons/up-arrow.svg';
+import profile from '../../assets/icons/profile.svg';
+import list from '../../assets/icons/list.svg';
+import favorites from '../../assets/icons/heart-full.svg';
+import recipe from '../../assets/icons/bookmark.svg';
+import tag from '../../assets/icons/tag.svg';
+import users from '../../assets/icons/users.svg';
+import contact from '../../assets/icons/contact.svg';
+import about from '../../assets/icons/about.svg';
 
 // SCSS
 import './styles.scss';

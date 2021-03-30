@@ -16,7 +16,9 @@ L’application se veut très inclusive et personnalisable avec un large choix d
 
 L’application sera développée en responsive design, c’est-à-dire que l’affichage s'adapte en fonction de la taille d’écran et du terminal utilisé. Nous nous concentrerons sur deux types d’affichages : affichage mobile (pour les téléphones portables en mode portrait), et desktop (pour les ordinateurs, format paysage). 
 
-## Fonctionnement
+## Note
+
+Il s'agit de la Version 2.0 d'O'Fourneaux, la version initiale est privée, car réalisée dans le cadre de notre école O'Clock. C'est pourquoi les commit de cette version ne reflètent pas le travail d'un mois réalisé par une équipe de 5 développeurs. Merci d'en tenir compte. 
 
 ### Arborescence
 

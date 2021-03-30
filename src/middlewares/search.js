@@ -1,5 +1,5 @@
 import axios from 'axios';
-import URL from 'src/middlewares/urlEnv';
+import URL from './urlEnv';
 
 const search = (store) => (next) => (action) => {
   const state = store.getState();

@@ -1,7 +1,7 @@
 // YARN
 import axios from 'axios';
 import FormData from 'form-data';
-import URL from 'src/middlewares/urlEnv';
+import URL from './urlEnv';
 
 // middleware
 const shoppingList = (store) => (next) => (action) => {

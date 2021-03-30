@@ -2,7 +2,7 @@
 import React from 'react';
 
 // == Import
-import members from 'src/data/groupMembers';
+import members from '../../data/groupMembers';
 import './styles.scss';
 
 // == Composant

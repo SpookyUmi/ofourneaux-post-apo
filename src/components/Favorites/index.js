@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import CardRecipe from 'src/components/CardRecipe';
+import CardRecipe from '../CardRecipe';
 import './styles.scss';
 
 const Favorites = ({ recipes, setIsOpen }) => {

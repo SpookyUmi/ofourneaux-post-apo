@@ -4,11 +4,11 @@ import FormData from 'form-data';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import axios from 'axios';
-import uploadImage from 'src/middlewares/firebase';
-import URL from 'src/middlewares/urlEnv';
+import uploadImage from '../../../../middlewares/firebase';
+import URL from '../../../../middlewares/urlEnv';
 
-import 'src/components/Admin/admin.scss';
-import bin from 'src/assets/icons/delete.svg';
+import '../../admin.scss';
+import bin from '../../../../assets/icons/delete.svg';
 import './recipeForm.scss';
 
 import ModalConfirmCreation from './modal/ModalConfirmCreation';

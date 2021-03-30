@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import { buildRecipeURL } from 'src/utils/buildRecipeURL';
+import { buildRecipeURL } from '../../utils/buildRecipeURL';
 
-import time from 'src/assets/icons/time.svg';
-import fire from 'src/assets/icons/difficulty.svg';
-import difficultyNameById from 'src/utils/difficultyNameById';
+import time from '../../assets/icons/time.svg';
+import fire from '../../assets/icons/difficulty.svg';
+import difficultyNameById from '../../utils/difficultyNameById';
 
 import './styles.scss';
 

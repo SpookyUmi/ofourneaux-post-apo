@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 // A middleware so that the h3 of this page tells the user
 // which form he is on according to the current route:
-import nameAccordingToCurrentRoute from 'src/utils/nameAccordingToCurrentRoute';
+import nameAccordingToCurrentRoute from '../../utils/nameAccordingToCurrentRoute';
 
 // This component Form will show the form corresponding to the route
 // (AddRecipe, UpdateRecipe, TagForm, UserForm, IngredientForm).

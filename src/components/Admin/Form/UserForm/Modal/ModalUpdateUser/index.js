@@ -1,6 +1,6 @@
 // YARN
 import React, { useState } from 'react';
-import URL from 'src/middlewares/urlEnv';
+import URL from '../../../../../../middlewares/urlEnv';
 import axios from 'axios';
 import FormData from 'form-data';
 import './modalUpdateUser.scss';
@@ -15,7 +15,7 @@ const ModalUpdateUser = (props) => {
   const [firstName, setFirstName] = useState(props.user.first_name);
   const [lastName, setLastName] = useState(props.user.last_name);
   const [mailAddress, setMailAddress] = useState(props.user.mail_address);
-  const [statusId, setStatusId] = useState(statusUser.find((value) => value.name == props.user.status).id);
+  const [statusId, setStatusId] = useState(statusUser.find((value) => value.name === props.user.status).id);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
